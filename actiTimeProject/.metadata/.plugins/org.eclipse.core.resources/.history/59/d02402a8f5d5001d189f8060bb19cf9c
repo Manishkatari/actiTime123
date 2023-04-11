@@ -1,0 +1,22 @@
+package com.datastructure.basic;
+
+public class Strinclassinjava {
+
+	public static void main(String[] args) {
+       
+		
+		String str="manish";
+		
+		for(int i=0;i<=str.length();i++) {
+			   String subStr = str.substring(3);
+			   System.out.println(str);
+			   System.out.println(subStr);
+		}
+		
+
+
+		
+		
+	}
+
+}

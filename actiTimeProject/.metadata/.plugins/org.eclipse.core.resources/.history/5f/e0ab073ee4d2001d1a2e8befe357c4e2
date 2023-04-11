@@ -1,0 +1,41 @@
+package com.datastructure.basic;
+
+public class JavaStringProbleam {
+
+	public static void main(String[] args) {
+		
+		
+		//Assignment 1 find the length of given string str="java is super" output is 13
+		
+		
+		String str="java is super";
+		  int count = str.length();
+		  System.out.println(count);
+		  
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

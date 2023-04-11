@@ -1,0 +1,89 @@
+package com.datastructure.basic;
+
+public class StringClass {
+
+	public static void main(String[] args) {
+     
+	//Removing the  special chart in the given String 
+//	 String str="manish123!@#$%%^";
+//  	 String str1 = "";
+//	 for (int i=0;i<str.length();i++) {
+//		 char c=str.charAt(i);
+//		 str1 = str.replaceAll("[^0-9A-Za-z]", ""); 
+//	  }
+//	   System.out.println(str1);
+
+		
+	//Removing duplicates in string  using java 8 lambda 
+		
+//     	String str2 ="manishmmm";
+//		StringBuilder sbr=new StringBuilder();
+//		str2.chars().distinct().forEach(e->sbr.append((char)e));
+//       System.out.println(sbr);
+
+		
+      //Removing the space in between the String 
+		
+//		String str3=" jaffw va St ri ng ";
+//		str3.trim();
+//		String string = str3.replaceAll("\\s", "");
+//		System.out.println(string); 
+
+		
+	  //Reversing the given string 
+		
+//		String str4="manish";
+//		char[] c = str4.toCharArray();
+//		for(int i=str4.length()-1;i>=0;i--) {
+//			System.out.print(c[i]);
+//		}
+//		System.out.println("");
+//		
+//		for(int i=str4.length()-1;i>=0;i--) {
+//			System.out.print(str4.charAt(i));
+//		}
+//		
+     //Reversing the string by using stringBuffer	
+		
+//		StringBuffer sb =new StringBuffer(str4);
+//		System.out.println(sb.reverse());
+		
+	 
+	 //Reversing the given string by word by word
+		
+//      String str5="manish is  a good boy";  
+//     String[] strCharss = str5.split(" ");
+//      String out="";
+//       for( String le:strCharss) {
+//    	   String revStr="";
+//    	   
+//    	   for(int i=le.length()-1;i>=0;i--) {
+//    		   revStr=revStr+le.charAt(i);
+//    	   }
+//    	   out=out+revStr+" ";
+//       }
+//		System.out.println(out);
+		 
+		
+		 String str = " a b c d f g e f d";
+	       for (int i=0; i<=str.length(); i++) {
+	          char c = str.toLowerCase().trim().charAt(i);
+	           System.out.print(c);
+	       }
+	       System.out.println("");
+	       for (int i=0;i< str.length();i++) {
+			 char c=str.charAt(i);
+			 str = str.replaceAll("[^0-9A-Za-z]", "");
+		  }
+	       System.out.print(str);
+
+
+		
+		
+		
+		
+
+   
+       
+	}
+}

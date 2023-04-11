@@ -1,0 +1,25 @@
+package com.datastructure.basic;
+
+public class Strinclassinjava {
+
+	
+	public static void main(String[] args) {
+       
+		
+		String str="manish is good boy";
+		
+		  String newString = str.strip();
+		    if (newString.equals(" ")) {
+		    	String newSub = new String();
+		    	System.out.println(newSub);
+		    }
+			
+		
+		
+
+
+		
+		
+	}
+
+}

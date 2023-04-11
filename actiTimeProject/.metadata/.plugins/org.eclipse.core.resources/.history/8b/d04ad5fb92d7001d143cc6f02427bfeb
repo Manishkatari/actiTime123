@@ -1,0 +1,142 @@
+package com.datastructure.basic;
+
+public class StringClass {
+
+	public static void main(String[] args) {
+     
+	//Removing the  special chart in the given String 
+//	 String str="manish123!@#$%%^";
+//  	 String str1 = "";
+//	 for (int i=0;i<str.length();i++) {
+//		 char c=str.charAt(i);
+//		 str1 = str.replaceAll("[^0-9A-Za-z]", ""); 
+//	  }
+//	   System.out.println(str1);
+
+		
+	//Removing duplicates in string  using java 8 lambda 
+		
+//     	String str2 ="manishmmm";
+//		StringBuilder sbr=new StringBuilder();
+//		str2.chars().distinct().forEach(e->sbr.append((char)e));
+//       System.out.println(sbr);
+
+		
+      //Removing the space in between the String 
+		
+//		String str3=" jaffw va St ri ng ";
+//		str3.trim();
+//		String string = str3.replaceAll("\\s", "");
+//		System.out.println(string); 
+
+		
+	  //Reversing the given string 
+		
+//		String str4="manish";
+//		char[] c = str4.toCharArray();
+//		for(int i=str4.length()-1;i>=0;i--) {
+//			System.out.print(c[i]);
+//		}
+//		System.out.println("");
+//		
+//		for(int i=str4.length()-1;i>=0;i--) {
+//			System.out.print(str4.charAt(i));
+//		}
+		
+     //Reversing the string by using stringBuffer	
+		
+//		StringBuffer sb =new StringBuffer(str4);
+//		System.out.println(sb.reverse());
+		
+	 
+	 //Reversing the given string by word by word
+		
+//      String str5="manish is  a good boy";  
+//     String[] strCharss = str5.split(" ");
+//      String out="";
+//       for( String le:strCharss) {
+//    	   String revStr="";
+//    	   
+//    	   for(int i=le.length()-1;i>=0;i--) {
+//    		   revStr=revStr+le.charAt(i);
+//    	   }
+//    	   out=out+revStr+" ";
+//       }
+//		System.out.println(out);
+		 
+		
+     	String str = "mAnish";String str1 = "katari";
+     	StringBuffer sb=new StringBuffer(str);
+//		System.out.println(sb.append(str1));
+//		
+//		System.out.println(sb.reverse());
+//		
+//		System.out.println(sb.charAt(5));
+//		
+//		System.out.println(sb.replace(0, 6, str1));
+//		
+//		System.out.println(sb.replace(6, sb.length(), str));
+//		
+//		System.out.println(sb.capacity());
+//		
+//		System.out.println(sb.charAt(3));
+//		
+//		System.out.println(sb.deleteCharAt(5));
+//		
+//	    System.out.println(sb.replace(5, sb.length(), str));
+//	     
+//		System.out.println(sb.delete(5,sb.length()));
+//		
+//		
+//		
+//		StringBuilder sbr=new StringBuilder(str);
+//		char ss = sbr.charAt(5);
+//		System.out.println(ss);
+		
+//		
+//		str.concat(str1);
+//		System.out.println(str);
+//		
+//		String cc = str.concat(str1);
+//		System.out.println(cc);
+//		
+		
+//     	StringBuilder sbl=new StringBuilder();
+//		System.out.println(sbl.append(str));
+//		System.out.println(sbl.reverse());
+//		System.out.println(sbl.isEmpty());
+//		System.out.println(sbl.charAt(2));
+//		System.out.println(sbl.replace(6, str1.length(), str1));
+		
+		
+			for(int j=0;j<str.length();j++) {
+				System.out.print(str.charAt(j));
+			}
+			
+			int count=0; 
+			char arr[]=new char[str.length()];
+			for(int k=str1.length()-1;k>=0;k--) {
+				System.out.print(str1.charAt(k));	
+			char cha = str.toLowerCase().charAt(k);
+			if(cha=='a'||cha=='e'||cha=='i'||cha=='o'||cha=='u') {
+				count++;
+				arr[k]=cha;
+			   }
+			}
+		    System.out.println(" ");
+			System.out.println("NO voeal present in the String:"+count);
+            for(int i=0;i<=arr.length;i++) {
+            	System.out.println(arr[i]);
+            }
+
+   
+			
+			
+		
+		
+	
+
+
+       
+	}
+}

@@ -1,0 +1,19 @@
+package com.datastructure.basic;
+
+public class Strinclassinjava {
+
+	public static void main(String[] args) {
+       
+		
+		String str="manish is good boy";
+			   String subStr = str.substring(3);
+			   System.out.println(subStr);
+		
+		
+
+
+		
+		
+	}
+
+}

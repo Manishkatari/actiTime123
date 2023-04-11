@@ -1,0 +1,56 @@
+package com.datastructure.basic;
+
+public class JavaStringProbleam {
+
+	public static void main(String[] args) {
+		
+		
+	//Assignment 1 find the length of given string str="java is super" output is 13
+
+		String str="java is super";
+		  int count = str.length();
+		  System.out.println(count);
+		  
+    //Assignment 2 count the no of words in string str="java is super" output is 3
+		  
+    
+		  
+		  
+    //Assignment 3 count the char how many times present in string str="Hello World "  output=3 int='i'
+		      
+		 String str1="Hello World";
+		 
+		 char[] arr = str1.toCharArray();
+		   
+		
+		
+  //Assignment 4   reverse a string 
+		 
+		for(int i=13;i==0;i--) {
+			char c = str.charAt(i);
+			System.out.println(c);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

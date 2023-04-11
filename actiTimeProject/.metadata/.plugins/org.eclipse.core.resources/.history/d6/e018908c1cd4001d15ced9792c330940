@@ -1,0 +1,58 @@
+package com.datastructure.basic;
+
+public class Strinclassinjava {
+
+	public static void main(String[] args) {
+    
+		
+//		 String str="manish is a good boy";
+//		 for(int i=str.length()-1;i>=0;i--) {
+//			 System.out.print(str.charAt(i));
+//		 }
+//		 System.out.println(" ");
+//	
+//		char[] strArr = str.toCharArray();
+//		 for(int i=strArr.length-1;i>=0;i--) {
+//			 System.out.print(str.charAt(i));
+//		 }
+//		
+//		     
+//		 System.out.println(" ");
+		 
+//		 String output="";
+//		 String[] words = str.split(" ");
+//		for(String le:words) {
+//			String revword="";
+//			for(int i=le.length()-1;i>=0;i--) {
+//				revword=revword+le.charAt(i);
+//			     
+//		    }
+//			output=output+revword+" ";
+//		}
+//		System.out.println(output);
+		 
+		 
+		 
+		 
+	     	String str2 ="manishmmm";
+//			StringBuilder sbr=new StringBuilder();
+//			StringBuffer sbb=new StringBuffer();
+//			str2.chars().forEach(e->sbb.reverse());
+//			System.out.println(sbb);
+////			str2.chars().distinct().forEach(e->sbr.append((char)e));
+////	       System.out.println(sbr);
+		
+			
+		     
+                 str2.chars().forEach(e->{
+            		 for(int i=str2.length()-1;i>=0;i--) {
+        			 System.out.print(str2.charAt(i));
+        		 }
+                	System.out.println(); 
+                 });
+			
+		
+		
+	}
+
+}
